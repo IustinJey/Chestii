@@ -1,0 +1,12 @@
+﻿  Teste.cpp
+UserInterface.obj : error LNK2019: unresolved external symbol cleardevice referenced in function "void __cdecl runGraph(class Entity)" (?runGraph@@YAXVEntity@@@Z)
+UserInterface.obj : error LNK2019: unresolved external symbol line referenced in function "void __cdecl runGraph(class Entity)" (?runGraph@@YAXVEntity@@@Z)
+UserInterface.obj : error LNK2019: unresolved external symbol lineto referenced in function "void __cdecl drawLine(int,int,int,int,int,int,int,char * const)" (?drawLine@@YAXHHHHHHHQEAD@Z)
+UserInterface.obj : error LNK2019: unresolved external symbol rectangle referenced in function "void __cdecl runGraph(class Entity)" (?runGraph@@YAXVEntity@@@Z)
+UserInterface.obj : error LNK2019: unresolved external symbol moveto referenced in function "void __cdecl drawLine(int,int,int,int,int,int,int,char * const)" (?drawLine@@YAXHHHHHHHQEAD@Z)
+UserInterface.obj : error LNK2019: unresolved external symbol setcolor referenced in function "void __cdecl drawLine(int,int,int,int,int,int,int,char * const)" (?drawLine@@YAXHHHHHHHQEAD@Z)
+UserInterface.obj : error LNK2019: unresolved external symbol setlinestyle referenced in function "void __cdecl runGraph(class Entity)" (?runGraph@@YAXVEntity@@@Z)
+UserInterface.obj : error LNK2019: unresolved external symbol initwindow referenced in function "void __cdecl openGraph(class Entity)" (?openGraph@@YAXVEntity@@@Z)
+UserInterface.obj : error LNK2019: unresolved external symbol outtextxy referenced in function "void __cdecl drawLine(int,int,int,int,int,int,int,char * const)" (?drawLine@@YAXHHHHHHHQEAD@Z)
+graphics.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Alina\Desktop\Files\Codes\C++\LAB5\PB1\x64\Debug\PB1.exe : fatal error LNK1120: 9 unresolved externals
